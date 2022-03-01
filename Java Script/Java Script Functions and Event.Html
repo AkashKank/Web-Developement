@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script>
+            function myFunction(){document.getElementById("demo").innerHTML = "Paragraph Changed.";}
+        </script>
+    </head>
+     
+    <body>
+
+        <h2>JavaScript in Head</h2>
+
+        <p id="demo">This is First Paragraph.</p>
+
+        <button type="button"
+        onclick="myFunction()">Try it</button>
+    </body>
+
+    <body>
+
+        <h2>JavaScript in Body</h2>
+
+        <p id="Crazy">This is a Paragraph</p>
+
+        <button type="button" onclick="FunFact()">Try it</button>
+
+        <script>
+            function FunFact(){
+                document.getElementById("Crazy").innerHTML = "Paragraph Changed.";
+            }
+        </script>
+    </body>
+</html>
