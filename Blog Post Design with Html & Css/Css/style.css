@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Poppins:wght@400;700&family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main-container{
+    width: 100%;
+    height: 400px;
+    background-color: #c29077;
+}
+
+.head h2{
+    color: black;
+    font-weight: normal;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 2px;
+    font-size: 50px;
+    font-family: 'poppins serif';
+    font-weight: bolder;
+    text-shadow: 4px 4px rgb(161, 159, 159);
+}
+
+.section1 .head{
+    margin-left: 100px;
+}
+
+.main-container .sec-1{
+    display: flex;
+    margin-left: 200px;
+    padding-top: 50px;
+}
+
+.nav{
+    padding-top: 20px;
+    margin-left: 400px;
+}
+
+.sec-1 .nav ul{
+    display: flex;
+    color: white;
+}
+
+.nav ul li{
+    list-style: none;
+    padding-left: 20px;
+}
+
+.nav h4{
+    padding-left: 20px;
+    margin-bottom: 10px;
+    word-spacing: 5px;
+    color: black;
+    font-size: 18px;  
+}
+
+.main-container .para{
+    width: 700px;
+    height: 20px;
+    margin-top: 50px;
+    margin-left: 400px;
+}
+
+.para p{
+    word-spacing: 1px;
+    line-height: 20px;
+    color: rgb(32, 30, 30);
+    font-weight: medium;
+    font-size: 18px;
+}
+
+.btn {
+    margin-top: 100px;
+    margin-left: 600px;
+}
+
+.btn button{
+    padding: 10px;
+    width: 250px;
+    border-radius: 10px;
+    border: none;
+    background-color: #a96741;
+    font-weight: bold;
+    font-size: 18px;
+    box-shadow: 4px 4px rgb(131, 130, 130);
+}
+
+.container{
+    margin-top: 20px;
+}
+
+.image,.head{
+    display: flex;
+    justify-content: center;
+}
+
+.image .img{
+    width: 350px;
+    height: 250px;
+    background-color: gray;
+    margin-left: 20px;
+    background: url("../Images/Manus.avif");
+    background-size: cover;
+    box-shadow: 7px 6px rgb(156, 154, 154);
+}
+
+.info{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.info .text{
+    width: 350px;
+    height: 250px;
+    margin-left: 20px;
+    color: black;
+}
+
+.head h4{
+    padding-right: 200px;
+    padding-left: 100px;
+    padding-bottom: 10px;
+    font-family: 'poppins'sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.head{
+    margin-left: 150px;
+    margin-right: 100px;
+}
+
+.info .text p{
+    padding-top: 20px;
+    color: rgb(29, 28, 28);
+}
+
+.info .text h3{
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    color: black;
+    font-weight: bold;
+}
+
+.footer{
+    display: flex;
+    margin-top: 20px;
+    width: 100%;
+    height: 150px;
+    background-color: rgb(37, 35, 35);
+}
+
+.icon{
+    display: flex;
+}
+
+.icon i{
+    padding-left: 100px;
+    padding-top: 50px;
+}
+
+.icon h2{
+    padding-left: 10px;
+    padding-top: 50px;
+    color: rgb(177, 172, 172);
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+}
+
+.navi ul{
+    display: flex;
+    margin-left: 700px;
+}
+
+.navi ul li{
+    list-style: none;
+    padding-top: 60px;
+    padding-left: 30px;
+    color: rgb(177, 172, 172);
+}
